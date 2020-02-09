@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E1CBE0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:text="【あそびかた】"
+        android:textAlignment="center"
+        android:textColor="#5B3F5F"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="なでたり,\nブラッシングして\n犬を喜ばせよう!"
+        android:textAlignment="center"
+        android:textColor="#5B3F5F"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <!--    押した感が出るボタン-->
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/starbutton"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="@raw/starimage"
+        android:text="START"
+        android:textColor="#C05ACA"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:text="★STARTを押すとゲームが始まるよ！"
+        android:textAlignment="center"
+        android:textColor="#5B3F5F"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@raw/badend"
+        android:scaleType="centerCrop"/>
+
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/Bbutton"
+        android:layout_width="500sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-300sp"
+        android:background="@raw/retry" />
+
+</FrameLayout>

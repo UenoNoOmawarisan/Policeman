@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@raw/kawaiimage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15sp"
+        android:text="ブラシ"
+        android:textAlignment="center"
+        android:textColor="#D2691E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/brushimage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="35sp"
+        android:layout_marginLeft="35dp"
+        android:src="@raw/brush" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="10dp"
+        android:text="を押すと、ブラッシングできるよ！"
+        android:textAlignment="center"
+        android:textColor="#5B3F5F"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <!--「なでる」に切り替えるボタン-->
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/strokingbutton"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="700dp"
+        android:background="@raw/hand" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="800sp"
+        android:layout_marginRight="30dp"
+        android:text="なでるモード"
+        android:textAlignment="center"
+        android:textColor="#5B3F5F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationZ="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="30sp"
+        android:text="「なでるモード」に切り替えて\n          犬をなでてあげよう！"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/yajirushi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="370dp"
+        android:src="@raw/yajirushi" />
+
+
+
+    <!--ブラッシングボタン-->
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="200sp"
+        android:layout_marginRight="50sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="400sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="180sp"
+        android:layout_marginRight="200sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="450sp"
+        android:layout_marginRight="140sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="280sp"
+        android:layout_marginRight="300sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="450sp"
+        android:layout_marginRight="310sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="580sp"
+        android:layout_marginRight="160sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="700sp"
+        android:layout_marginRight="300sp"
+        android:background="@raw/brush" />
+    <jp.ac.shohoku.s18b706.ueno.policeman.StarButton
+        android:id="@+id/brushbutton9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="580sp"
+        android:layout_marginRight="480sp"
+        android:background="@raw/brush" />
+
+
+
+</FrameLayout>
